@@ -1,5 +1,5 @@
 import { asyncHandler } from "../utils/asynchandler.js";
-import { book } from "../../models/book.model.js";
+import { book } from "../models/book.model.js";
 
 const registerBook = asyncHandler(
   // book entry

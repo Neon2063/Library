@@ -1,5 +1,5 @@
 import { asyncHandler } from "../utils/asynchandler.js";
-import { User } from "../../models/user.model.js";
+import { User } from "../models/user.model.js";
 import bcrypt from "bcrypt"
 
 const registerUser = asyncHandler(async (req, res) => {
